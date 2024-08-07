@@ -1,8 +1,5 @@
 import mongoose from "mongoose";
 import validator from "validator";
-
-
-
 const appointmentSchema = new mongoose.Schema({
     firstName:{
         type:String,
